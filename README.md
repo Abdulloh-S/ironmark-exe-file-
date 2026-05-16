@@ -11,7 +11,7 @@
 2. Дважды кликни `run.bat`
 
 ### Собрать .exe
-1. Дважды кликни `build.bat`
+1. Дважды кликни `setup.bat`
 2. Подожди 2–3 минуты
 3. Готово — `IRONMARK.exe` появится в этой же папке
 
@@ -57,7 +57,7 @@ pip install pyopencl
 📁 папка/
     ironmark.py        — основной код
     icon.ico           — иконка приложения
-    build.bat          — сборка в .exe
+    setup.bat          — сборка в .exe
     run.bat            — запуск через Python
     requirements.txt   — зависимости
     README.md          — этот файл
@@ -71,7 +71,7 @@ pip install pyopencl
 customtkinter, numpy, psutil, gputil, pywin32, wmi
 ```
 
-Устанавливаются автоматически через `build.bat` или `run.bat`.
+Устанавливаются автоматически через `setup.bat` или `run.bat`.
 
 Опционально: `pyopencl` — для реального GPU теста.
 
